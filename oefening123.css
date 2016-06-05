@@ -1,0 +1,218 @@
+.head{
+  height: 470px;
+  width: 1054px;
+  margin-left: 100px;
+  border: 2px solid black;
+}
+
+h1{
+  font-family: Jennifer Lynne;
+  font-size: 7em;
+  text-align: center;
+  padding-bottom: 180px;
+  margin-top: -470px;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 70px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 300px;
+    margin-top: -200px;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a {
+  color: black;
+  text-align: center;
+  margin-right: 30px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.details{
+  font-size: 0.7em;
+}
+
+.details1{
+    margin-top: 60px;
+}
+
+.kader{
+  border: 2px solid peachpuff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.foto2{
+  height: 400px;
+  width: 600px;
+  margin-top: -390px;
+  margin-bottom: 180px;
+  margin-left: 230px;
+}
+
+.tweede{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 400px;
+  margin-bottom: -140px;
+}
+
+.vrienden{
+  height: 400px;
+  width: 600px;
+  margin-left: 230px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .foto2,.vrienden,.head{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    }
+    .kader{
+      width:80%;
+      display: block;
+      margin: auto;
+    }
+
+    h1,h3{
+      width: 80%;
+      height: 80%;
+      display: block;
+      margin: auto;
+    }
+
+}
+@media (max-width: 910px) {
+
+      .foto2,.vrienden,.head{
+      width: 75%;
+      height: 75%;
+      display: block;
+      margin: auto;
+    }
+    .kader{
+      width:75%;
+      display: block;
+      margin: auto;
+    }
+  
+    h1,h3{
+      width: 75%;
+      height: 75%;
+      display: block;
+      margin: auto;
+    }
+}
+@media (max-width: 810px) {
+
+      .foto2,.vrienden,.head{
+      width: 70%;
+      height: 70%;
+      display: block;
+      margin: auto;
+    }
+    .kader{
+      width:70%;
+      display: block;
+      margin: auto;
+    }
+
+    h1,h3{
+      width: 70%;
+      height: 70%;
+      display: block;
+      margin: auto;
+    }
+}
+@media (max-width: 710px) {
+
+      .foto2,.vrienden,.head{
+      width: 65%;
+      height: 65%;
+      display: block;
+      margin: auto;
+    }
+    .kader{
+      width:65%;
+      display: block;
+      margin: auto;
+    }
+
+    h1,h3{
+      width: 65%;
+      height: 65%;
+      display: block;
+      margin: auto;
+    }
+}
+@media (max-width: 610px) {
+
+      .foto2,.vrienden,.head{
+      width: 60%;
+      height: 60%;
+      display: block;
+      margin: auto;
+    }
+    .kader{
+      width:60%;
+      display: block;
+      margin: auto;
+    }
+
+    h1,h3{
+      width: 60%;
+      height: 60%;
+      display: block;
+      margin: auto;
+    }
+}
+@media (max-width: 450px) {
+
+      .foto2,.vrienden,.head{
+      width: 55%;
+      height: 55%;
+      display: block;
+      margin: auto;
+    }
+    .kader{
+      width:55%;
+      display: block;
+      margin: auto;
+    }
+
+    h1,h3{
+      width: 55%;
+      height: 55%;
+      display: block;
+      margin: auto;
+    }
+}
